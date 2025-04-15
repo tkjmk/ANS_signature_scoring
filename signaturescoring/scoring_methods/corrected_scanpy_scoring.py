@@ -4,7 +4,11 @@ import numpy as np
 import pandas as pd
 import scanpy as sc
 from anndata import AnnData
-from scanpy._utils import AnyRandom, _check_use_raw
+try:
+    from scanpy._utils import AnyRandom, _check_use_raw
+except ImportError:
+    from scanpy._utils import _check_use_raw
+    AnyRandom = 0
 
 from signaturescoring.utils.utils import nanmean
 
