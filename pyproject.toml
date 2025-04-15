@@ -7,10 +7,10 @@ readme = "README.md"
 packages = [{include = "signaturescoring"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-numpy = "^1.23.3"
-pandas = "^1.5.0"
-scanpy = "^1.9.1"
+python = "^3.11.11"
+numpy = "^2.1.3"
+pandas = "^2.2.3"
+scanpy = "^1.11.0"
 
 
 [tool.poetry.group.dev.dependencies]
