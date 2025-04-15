@@ -1,6 +1,5 @@
 numpy
 pandas
-scikit-misc
 scanpy
 seaborn
 scipy
